@@ -4,7 +4,7 @@
   For example,Ackerman Func.  
  - 主定理分析递推式，来估计复杂度。  
 !["主定理"](zhudingli.png)  
- - 上面的图片说了等于没说，下面的更好一些：
+**上面的图片说了等于没说，下面的更好一些：**
 !["master-theorem"](mastertheorem.jpg)
 
 ### Illumination on Divide&Conquer:  
@@ -29,4 +29,4 @@
                 第一遍是比较是O(n),第二次大概是O(n/2),第三次是O(n/4),比较次数相加接近O(2n),交换次数最多O(2n)次,最少是O(n)次,
                 平均O(1.5n)次.其递归的关键在于递归最后一次与参照值的交换。（**已经实现在Qsort.java文件**）
 #### Minimal Point  Pair  Distance
-**A Very Enlightening blog article [About this theme](https://blog.csdn.net/liufeng_king/article/details/8484284). **  
+A Very Enlightening blog article [About this theme](https://blog.csdn.net/liufeng_king/article/details/8484284). 
