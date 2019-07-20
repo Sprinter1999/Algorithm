@@ -1,6 +1,8 @@
 package sort;
 
-public class quicksort {
+public class Quicksort {
+	static int spec=0;
+	static int k=3;
 	public static void main(String[] args)
 	{
 		int[] a= {55,99,88,33,66,77,22,11,44};
@@ -9,6 +11,10 @@ public class quicksort {
 		for (int i : a) {
 			System.out.println(i);
 		}
+		
+//		int k=3;
+//		int spec;
+		System.out.print("第3小的元素(0,1,2,3)是:"+a[spec]);
 	}
 	
 	public static void qsort(int p,int r,int[] a)
@@ -37,6 +43,8 @@ public class quicksort {
 		
 		a[p]=a[j];
 		a[j]=key;
+		if (j==k)
+			spec=j;
 		return j;
 	}
 	
