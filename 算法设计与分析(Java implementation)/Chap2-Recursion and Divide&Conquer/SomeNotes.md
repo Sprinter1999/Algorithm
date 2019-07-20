@@ -28,3 +28,5 @@
                 参照值就是那个Pivot，一次partition确定一个Pivot。即此时i就是参照值的下标.如果i==k的话,就输出当前的参照值.
                 第一遍是比较是O(n),第二次大概是O(n/2),第三次是O(n/4),比较次数相加接近O(2n),交换次数最多O(2n)次,最少是O(n)次,
                 平均O(1.5n)次.其递归的关键在于递归最后一次与参照值的交换。（**已经实现在Qsort.java文件**）
+#### Minimal Point  Pair  Distance
+**A Very Enlightening blog article [About this theme](https://blog.csdn.net/liufeng_king/article/details/8484284). **  
