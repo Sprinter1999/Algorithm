@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SortTest",
+            "request": "launch",
+            "mainClass": "Sort.SortTest",
+            "projectName": "Homework02_eb100925"
+        }
+    ]
+}

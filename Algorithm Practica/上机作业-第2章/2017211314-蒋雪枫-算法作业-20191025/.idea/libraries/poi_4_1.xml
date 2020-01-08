@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="poi-4.1">
+    <CLASSES>
+      <root url="file://D:/Java Extention/poi-4.1.0" />
+      <root url="jar://D:/Java Extention/jxl.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="file://D:/Java Extention/poi-4.1.0/docs/apidocs/dev" />
+    </JAVADOC>
+    <SOURCES />
+    <jarDirectory url="file://D:/Java Extention/poi-4.1.0" recursive="false" />
+  </library>
+</component>
