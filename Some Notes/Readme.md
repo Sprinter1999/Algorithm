@@ -1,1 +1,0 @@
-# It's a folder which stores some notes about DS&Algorithm :) .
