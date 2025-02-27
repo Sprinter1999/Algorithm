@@ -21,7 +21,7 @@ int main()
 		}
 		for(int i=0;i<=s;i++)
 		{
-			dp[0][i]=0; //dp(i,j)表示在总体积不超过j时前i个物品能达到的最大价值 
+			dp[0][i]=0;  
 		}
 		
 		for(int i=1;i<=n;i++)

@@ -1,5 +1,5 @@
 # Algorithm-Practica
-一个记录部分算法的Repo，算法练习是一个长期的过程，贵在坚持
+一个记录部分个人算法题的Repo
 
 ## Content：
 
